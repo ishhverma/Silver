@@ -12,7 +12,7 @@ This project covers:
 * Portfolio optimization & volatility term structure
   <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/8f9e6fb6-c2aa-48d4-a411-d3ce8830557c" />
 
-# 📊 1. Data Acquisition & Preprocessing
+#  1. Data Acquisition & Preprocessing
 ## Silver Futures Data
 * Source: Yahoo Finance
 * Observations downloaded: **6,394**
@@ -30,7 +30,7 @@ To capture cross-asset volatility transmission:
 * S&P 500
 These were aligned temporally with the silver dataset.
 
-# 📈 2. Returns Distribution Analysis
+#  2. Returns Distribution Analysis
 ### Silver Return Statistics
 | Metric             | Value         |
 | ------------------ | ------------- |
@@ -52,7 +52,7 @@ Jarque-Bera Test:
 Conclusion:
 > Returns are **not normally distributed**, validating the need for GARCH-type and jump-aware models.
 
-# ⚡ 3. Volatility Feature Engineering
+#  3. Volatility Feature Engineering
 ## Realized Volatility
 Annualized realized volatility windows:
 | Feature | Mean         |
@@ -80,7 +80,7 @@ Insights:
 * Silver behaves strongly like a **leveraged gold proxy**
 * USD strength negatively impacts silver
 
-# 📉 4. Volatility Modeling (Statistical Models)
+#  4. Volatility Modeling (Statistical Models)
 ## EWMA Model
 * Current EWMA volatility: **1.2990**
 
@@ -104,7 +104,7 @@ Interpretation:
 
 EWMA performed best among classical models.
 
-# 🤖 5. Machine Learning Volatility Forecasting
+#  5. Machine Learning Volatility Forecasting
 ## Dataset
 * Features: **18**
 * Samples: **6,280**
@@ -149,7 +149,7 @@ Observation:
 Improvement over XGBoost:
 * **0.84% RMSE reduction**
   
-# 💰 6. Options Pricing & Greeks
+# 6. Options Pricing & Greeks
 ## Market Assumptions
 * Silver Price: **$82.34**
 * Strike: **$90.58** (10% OTM)
@@ -189,7 +189,7 @@ Difference from Black-Scholes:
 Conclusion:
 > Black-Scholes significantly overprices options when stochastic volatility is considered.
 
-# 🛡️ 7. Risk Management
+#  7. Risk Management
 ## Silver Volatility Index (SVIX)
 * Current value: **1240.93**
 * Implied volatility proxy: **138.88%**
@@ -221,7 +221,7 @@ Indicates heavy tail exposure.
 | Silver Flash Crash (−25%) | **−$20,586**          |
 | Volatility Spike (+30%)   | New VaR ≈ **$63,046** |
 
-# 📊 8. Trading Strategy Analysis
+#  8. Trading Strategy Analysis
 ## Volatility Arbitrage Strategy
 Initial Capital: **$100,000**
 Final Equity: **$5,179**
@@ -249,7 +249,7 @@ Regime modeling significantly improves risk understanding.
 ## Crash Prediction Model
 * Current crash probability: **0.30%**
 
-# 📊 9. Portfolio Analysis
+#  9. Portfolio Analysis
 Assets:
 * Silver
 * Gold
@@ -266,7 +266,7 @@ Minimum Variance:
 30-day expected volatility:
 * **34.58%**
 * 
-# 🧠 Key Insights
+#  Key Insights
 1. Silver exhibits **extreme fat tails and jump risk**
 2. Macro variables (especially gold and USD) strongly influence returns
 3. Classical EWMA performed surprisingly well vs GARCH
@@ -275,7 +275,7 @@ Minimum Variance:
 6. Tail risk is significant (ES/VaR = 1.54)
 7. Regime detection is critical for profitable trading
 
-# 🚀 Technologies Used
+#  Technologies Used
 * Python
 * NumPy / Pandas
 * Scikit-Learn
@@ -285,7 +285,7 @@ Minimum Variance:
 * Matplotlib / Seaborn
 * yFinance
 
-# 👤 Ishu Verma
+#  Ishu Verma
 Quantitative Research Project demonstrating:
 * Derivatives knowledge
 * Machine learning in finance
