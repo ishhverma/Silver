@@ -39,6 +39,7 @@ These were aligned temporally with the silver dataset.
 | Kurtosis           | **22.478674** |
 | Minimum            | **−0.376103** |
 | Maximum            | **0.131250**  |
+
 Key insight:
 * Strong **negative skew**
 * Extremely **fat tails** (kurtosis > 22)
@@ -58,6 +59,7 @@ Annualized realized volatility windows:
 | rv_7    | **0.278447** |
 | rv_30   | **0.292772** |
 | rv_90   | **0.297279** |
+
 Observation:
 * Volatility clustering is persistent across horizons.
 
@@ -72,6 +74,7 @@ Correlation with silver returns:
 | ------------ | ------------- |
 | Gold         | **0.777315**  |
 | Dollar Index | **−0.356694** |
+
 Insights:
 * Silver behaves strongly like a **leveraged gold proxy**
 * USD strength negatively impacts silver
@@ -97,6 +100,7 @@ Interpretation:
 | EWMA   | **0.0334** |
 | GARCH  | **0.0375** |
 | EGARCH | **0.0497** |
+
 EWMA performed best among classical models.
 
 # 🤖 5. Machine Learning Volatility Forecasting
@@ -228,6 +232,7 @@ Performance:
 | Excess Return | **−395.22%** |
 | Sharpe Ratio  | **−0.449**   |
 | Max Drawdown  | **−95.55%**  |
+
 Insight:
 > Naive volatility arbitrage without regime filtering is unprofitable.
 
@@ -237,6 +242,7 @@ Insight:
 | 0      | **12.18%**  | 17.45%     | 0.67   |
 | 1      | **−21.59%** | 49.79%     | −0.39  |
 | 2      | **25.51%**  | 28.08%     | 0.91   |
+
 Regime modeling significantly improves risk understanding.
 
 ## Crash Prediction Model
