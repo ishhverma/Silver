@@ -1,4 +1,4 @@
-#  Silver Volatility Modeling, Forecasting & Options Analytics
+#  Forecasting Silver Market Volatility: A Comparative Study of Econometric and Machine Learning Models with Applications to Option Pricing and Risk Management
 A full-stack quantitative research project analyzing **Silver Futures** volatility using statistical models, machine learning, and derivative pricing techniques.
 
 This project covers:
