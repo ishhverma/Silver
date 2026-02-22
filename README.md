@@ -10,6 +10,7 @@ This project covers:
 * Trading strategy backtesting
 * Regime detection & crash prediction
 * Portfolio optimization & volatility term structure
+  <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/8f9e6fb6-c2aa-48d4-a411-d3ce8830557c" />
 
 # 📊 1. Data Acquisition & Preprocessing
 ## Silver Futures Data
