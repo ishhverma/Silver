@@ -240,5 +240,6 @@ This project integrates multiple quantitative layers:
 **Ishu Verma**
 
 Quantitative Finance
+
 [ishuverma1511@gmail.com](mailto:ishuverma1511@gmail.com)
 23 February 2026
