@@ -12,15 +12,6 @@ The primary goals of this project were:
 * Build a scalable quantitative research pipeline
 
 #  Key Skills Demonstrated
-✔ Time Series Modeling (GARCH Family, EWMA)
-✔ Machine Learning (Random Forest, XGBoost, LightGBM)
-✔ Deep Learning (LSTM, GRU)
-✔ Options Pricing (Black-Scholes, Monte Carlo, Heston)
-✔ Risk Management (VaR, ES, Stress Testing)
-✔ Feature Engineering for Financial Data
-✔ Quantitative Trading Strategy Development
-✔ Portfolio Optimization
-✔ Statistical Testing & Model Evaluation
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/50d48453-51e3-4320-b90d-f37f38f9b55e" />
 
 #  Data Overview
