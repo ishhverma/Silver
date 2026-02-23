@@ -1,8 +1,8 @@
-# 🚀 Silver Volatility Modeling & Options Analytics
+#  Silver Volatility Modeling & Options Analytics
 ### End-to-End Quantitative Research & Trading System
 This project develops a **quantitative finance framework** for modeling, forecasting, and trading volatility in silver futures markets. It combines **econometric models, machine learning, deep learning, derivatives pricing, and portfolio risk management** into a unified research pipeline.
 
-# 🎯 Project Objectives
+#  Project Objectives
 The primary goals of this project were:
 * Forecast future volatility using statistical and ML techniques
 * Price derivatives under multiple volatility assumptions
@@ -11,7 +11,7 @@ The primary goals of this project were:
 * Integrate macroeconomic factors into predictive models
 * Build a scalable quantitative research pipeline
 
-# 🧠 Key Skills Demonstrated
+#  Key Skills Demonstrated
 ✔ Time Series Modeling (GARCH Family, EWMA)
 ✔ Machine Learning (Random Forest, XGBoost, LightGBM)
 ✔ Deep Learning (LSTM, GRU)
@@ -23,7 +23,7 @@ The primary goals of this project were:
 ✔ Statistical Testing & Model Evaluation
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/50d48453-51e3-4320-b90d-f37f38f9b55e" />
 
-# 📊 Data Overview
+#  Data Overview
 **Asset:** Silver Futures (SI=F)
 **Period:** 2000-01-01 → 2026-02-22
 **Observations:** 6,395 daily records
@@ -37,7 +37,7 @@ Macro factors integrated:
 Final modeling dataset:
 > **6,394 observations | 38 engineered features**
 
-# 📈 Statistical Characteristics of Returns
+#  Statistical Characteristics of Returns
 | Metric   | Value    |
 | -------- | -------- |
 | Mean     | 0.000449 |
@@ -50,7 +50,7 @@ Final modeling dataset:
 Jarque-Bera Test:
 > p-value ≈ 0 → Returns are **non-normal with fat tails**, confirming the need for advanced volatility models.
 
-# ⚙️ Feature Engineering Pipeline
+# Feature Engineering Pipeline
 The system generated a rich set of predictive variables:
 ### Volatility Features
 * 7-day, 30-day, 90-day realized volatility
@@ -77,7 +77,7 @@ Strongest correlations with silver returns:
 * Dollar Index: **−0.357**
 * VIX: −0.099
 
-# 📉 Volatility Modeling — Econometric Methods
+#  Volatility Modeling — Econometric Methods
 ## EWMA
 * Lambda: 0.94
 * Current volatility: **1.2792**
@@ -92,7 +92,7 @@ Insight:
 > EWMA performed best among traditional models for short-horizon forecasting.
 <img width="1489" height="590" alt="image" src="https://github.com/user-attachments/assets/5b3e243b-3f26-4b6e-b42a-c19be625f5a5" />
 
-# 🤖 Machine Learning Volatility Forecasting
+#  Machine Learning Volatility Forecasting
 Dataset:
 * 6,281 samples
 * 18 predictive features
@@ -123,7 +123,7 @@ Combination: XGBoost + LSTM
 Insight:
 > Hybrid models capture both nonlinear structure and temporal dynamics more effectively.
 
-# 💰 Options Pricing & Derivatives Analytics
+#  Options Pricing & Derivatives Analytics
 Parameters:
 * Spot: $87.23
 * Strike: $95.95
@@ -164,7 +164,7 @@ A synthetic **Silver Volatility Index (SVIX)** was developed.
 The volatility surface exhibits a clear **volatility smile**, consistent with commodity options markets.
 <img width="761" height="658" alt="image" src="https://github.com/user-attachments/assets/ad865a6a-7739-45b1-8ecc-858da0a9e47e" />
 
-# ⚠️ Risk Management Framework
+#  Risk Management Framework
 Portfolio Size: $1,000,000
 ## Value at Risk (1-Day)
 | Confidence | Historical | Parametric |
@@ -180,7 +180,7 @@ Insight:
 > Tail risk is significantly larger than Gaussian assumptions suggest.
 <img width="1489" height="985" alt="image" src="https://github.com/user-attachments/assets/5da2684f-6902-475d-bead-2cd630ba462b" />
 
-# 🔥 Stress Testing
+# Stress Testing
 ### Market Crash Scenario
 * Price shock: −15%
 * PnL: −$13,085
@@ -188,7 +188,7 @@ Insight:
 * Vol increase: +30%
 * New 99% VaR: $63,078
 
-# 📈 Trading Strategy Development
+#  Trading Strategy Development
 Initial Capital: $100,000
 Backtest Window: Last 30 days
 | Strategy            | Return     | Final Equity |
@@ -203,7 +203,7 @@ Next-Day Signal:
 > **NEUTRAL — No Trade**
 <img width="1483" height="985" alt="image" src="https://github.com/user-attachments/assets/209880d4-dd68-418c-9a11-56adaadf7898" />
 
-# 🧮 Portfolio Optimization
+# Portfolio Optimization
 Assets:
 * Silver
 * Gold
@@ -223,7 +223,7 @@ Using GARCH forecasts:
 | 30 Days  | 0.28%      |
 | 365 Days | 0.28%      |
 
-# 🏗 System Architecture Highlights
+# System Architecture Highlights
 This project integrates multiple quantitative layers:
 * Data Engineering Pipeline
 * Statistical Modeling Engine
@@ -234,7 +234,7 @@ This project integrates multiple quantitative layers:
 * Portfolio Optimization Module
 * Auto-Update Market Data System
 
-# 💡 Key Insights & Takeaways
+# Key Insights & Takeaways
 * Silver exhibits extreme kurtosis (>22), validating stochastic volatility models.
 * Macro variables, especially gold and dollar index, significantly influence returns.
 * Machine learning models outperform classical econometrics.
@@ -242,14 +242,14 @@ This project integrates multiple quantitative layers:
 * Stochastic volatility pricing is more realistic than Black-Scholes under stress.
 * Momentum breakout strategies showed strong short-term performance.
 
-# 🚀 Future Enhancements
+# Future Enhancements
 * Regime-switching volatility models
 * Transformer-based forecasting
 * Reinforcement learning trading agents
 * Real options market calibration
 * Live trading deployment
 
-# 👤 Author
+#  Author
 **Ishu Verma**
 Quantitative Finance
 📧 [ishuverma1511@gmail.com](mailto:ishuverma1511@gmail.com)
