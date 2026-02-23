@@ -238,6 +238,8 @@ This project integrates multiple quantitative layers:
 
 #  Author
 **Ishu Verma**
-Quantitative Finance
-[ishuverma1511@gmail.com](mailto:ishuverma1511@gmail.com)
+
+#Quantitative Finance
+
+#[ishuverma1511@gmail.com](mailto:ishuverma1511@gmail.com)
 23 February 2026
