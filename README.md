@@ -148,7 +148,7 @@ Difference vs Black-Scholes:
 Insight:
 > Black-Scholes significantly overprices under extreme volatility regimes.
 
-# 📊 Volatility Index Construction
+#  Volatility Index Construction
 A synthetic **Silver Volatility Index (SVIX)** was developed.
 * Current value: **1239.73**
 * Implied volatility proxy: **138.75%**
@@ -179,7 +179,7 @@ Insight:
 * Vol increase: +30%
 * New 99% VaR: $63,078
 
-#  Trading Strategy Development
+# Trading Strategy Development
 Initial Capital: $100,000
 Backtest Window: Last 30 days
 | Strategy            | Return     | Final Equity |
@@ -206,7 +206,7 @@ Minimum Variance Portfolio:
 Insight:
 > Correlation structure limited diversification benefits in this configuration.
 
-# 📐 Volatility Term Structure
+# Volatility Term Structure
 Using GARCH forecasts:
 | Horizon  | Volatility |
 | -------- | ---------- |
@@ -233,15 +233,8 @@ This project integrates multiple quantitative layers:
 * Stochastic volatility pricing is more realistic than Black-Scholes under stress.
 * Momentum breakout strategies showed strong short-term performance.
 
-# Future Enhancements
-* Regime-switching volatility models
-* Transformer-based forecasting
-* Reinforcement learning trading agents
-* Real options market calibration
-* Live trading deployment
-
 #  Author
 **Ishu Verma**
 Quantitative Finance
-📧 [ishuverma1511@gmail.com](mailto:ishuverma1511@gmail.com)
-📅 23 February 2026
+[ishuverma1511@gmail.com](mailto:ishuverma1511@gmail.com)
+23 February 2026
