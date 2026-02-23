@@ -214,6 +214,9 @@ Using GARCH forecasts:
 | 30 Days  | 0.28%      |
 | 365 Days | 0.28%      |
 
+# Comprehensive Dashboard 
+<img width="1280" height="853" alt="image" src="https://github.com/user-attachments/assets/132e4888-7b43-4859-9277-5bfe01e35b65" />
+
 # System Architecture Highlights
 This project integrates multiple quantitative layers:
 * Data Engineering Pipeline
